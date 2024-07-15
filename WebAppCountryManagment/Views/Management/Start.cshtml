@@ -1,0 +1,51 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Start</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div>
+        <button onclick="Check();">Check Country </button>
+        <br />
+        <br />
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Capital</th>
+                    <th>Population</th>
+                </tr>
+            </thead>
+            <tbody id="bodyTable">
+            </tbody>
+        </table>
+        <br />
+        <br />
+        <h3>Create new country:</h3>
+        <input type="text" placeholder="Insert a name" id="txtCountry" />
+        <br />
+        <br />
+        <input type="text" placeholder="Insert a Capital" id="txtCapital" />
+        <br />
+        <br />
+        <input type="text" placeholder="Insert the population" id="txtPopulation" />
+        <br />
+        <br />
+        <button onclick="Insert();">Save</button>
+
+    </div>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/logic.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BD_PaisesModelStoreContainer" CdmEntityContainer="BD_PaisesEntities">
+    <EntitySetMapping Name="Paises">
+      <EntityTypeMapping TypeName="BD_PaisesModel.Paises">
+        <MappingFragment StoreEntitySet="Paises">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="pais" ColumnName="pais" />
+          <ScalarProperty Name="capital" ColumnName="capital" />
+          <ScalarProperty Name="poblacion" ColumnName="poblacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="Pr_ConsultarPaises" FunctionName="BD_PaisesModel.Store.Pr_ConsultarPaises">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BD_PaisesModel.Pr_ConsultarPaises_Result">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="pais" ColumnName="pais" />
+          <ScalarProperty Name="capital" ColumnName="capital" />
+          <ScalarProperty Name="poblacion" ColumnName="poblacion" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="pr_InsertarPais" FunctionName="BD_PaisesModel.Store.pr_InsertarPais" />
+  </EntityContainerMapping>
+</Mapping>

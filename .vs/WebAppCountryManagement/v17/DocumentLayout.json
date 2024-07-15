@@ -1,0 +1,76 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sebas\\source\\repos\\WebAppCountryManagment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{164DB7CB-30EB-4209-9165-CAD036F60C9F}|WebAppCountryManagment\\WebAppCountryManagement.csproj|c:\\users\\sebas\\source\\repos\\webappcountrymanagment\\webappcountrymanagment\\scripts\\logic.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{164DB7CB-30EB-4209-9165-CAD036F60C9F}|WebAppCountryManagment\\WebAppCountryManagement.csproj|solutionrelative:webappcountrymanagment\\scripts\\logic.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{164DB7CB-30EB-4209-9165-CAD036F60C9F}|WebAppCountryManagment\\WebAppCountryManagement.csproj|c:\\users\\sebas\\source\\repos\\webappcountrymanagment\\webappcountrymanagment\\views\\management\\start.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{164DB7CB-30EB-4209-9165-CAD036F60C9F}|WebAppCountryManagment\\WebAppCountryManagement.csproj|solutionrelative:webappcountrymanagment\\views\\management\\start.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{164DB7CB-30EB-4209-9165-CAD036F60C9F}|WebAppCountryManagment\\WebAppCountryManagement.csproj|C:\\Users\\sebas\\source\\repos\\WebAppCountryManagment\\webappcountrymanagment\\controllers\\managementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{164DB7CB-30EB-4209-9165-CAD036F60C9F}|WebAppCountryManagment\\WebAppCountryManagement.csproj|solutionrelative:webappcountrymanagment\\controllers\\managementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 20,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Start.cshtml",
+              "DocumentMoniker": "C:\\Users\\sebas\\source\\repos\\WebAppCountryManagment\\WebAppCountryManagment\\Views\\Management\\Start.cshtml",
+              "RelativeDocumentMoniker": "WebAppCountryManagment\\Views\\Management\\Start.cshtml",
+              "ToolTip": "C:\\Users\\sebas\\source\\repos\\WebAppCountryManagment\\WebAppCountryManagment\\Views\\Management\\Start.cshtml",
+              "RelativeToolTip": "WebAppCountryManagment\\Views\\Management\\Start.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAIwBwAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T01:26:18.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ManagementController.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\source\\repos\\WebAppCountryManagment\\WebAppCountryManagment\\Controllers\\ManagementController.cs",
+              "RelativeDocumentMoniker": "WebAppCountryManagment\\Controllers\\ManagementController.cs",
+              "ToolTip": "C:\\Users\\sebas\\source\\repos\\WebAppCountryManagment\\WebAppCountryManagment\\Controllers\\ManagementController.cs",
+              "RelativeToolTip": "WebAppCountryManagment\\Controllers\\ManagementController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAswBgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T01:19:27.625Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 380,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "logic.js",
+              "DocumentMoniker": "C:\\Users\\sebas\\source\\repos\\WebAppCountryManagment\\WebAppCountryManagment\\Scripts\\logic.js",
+              "RelativeDocumentMoniker": "WebAppCountryManagment\\Scripts\\logic.js",
+              "ToolTip": "C:\\Users\\sebas\\source\\repos\\WebAppCountryManagment\\WebAppCountryManagment\\Scripts\\logic.js",
+              "RelativeToolTip": "WebAppCountryManagment\\Scripts\\logic.js",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACsAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-03T01:17:15.542Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

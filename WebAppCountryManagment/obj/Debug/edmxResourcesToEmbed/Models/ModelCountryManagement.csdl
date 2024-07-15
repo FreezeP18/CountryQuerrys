@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BD_PaisesModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Paises">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="pais" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="capital" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="poblacion" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="BD_PaisesEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Paises" EntityType="Self.Paises" />
+    <FunctionImport Name="Pr_ConsultarPaises" ReturnType="Collection(BD_PaisesModel.Pr_ConsultarPaises_Result)" />
+    <FunctionImport Name="pr_InsertarPais">
+      <Parameter Name="Pais" Mode="In" Type="String" />
+      <Parameter Name="Capital" Mode="In" Type="String" />
+      <Parameter Name="Poblacion" Mode="In" Type="Int64" />
+      <Parameter Name="Resultado" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="Pr_ConsultarPaises_Result">
+    <Property Type="Int32" Name="id" Nullable="false" />
+    <Property Type="String" Name="pais" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="capital" Nullable="false" MaxLength="100" />
+    <Property Type="Int32" Name="poblacion" Nullable="false" />
+  </ComplexType>
+</Schema>
